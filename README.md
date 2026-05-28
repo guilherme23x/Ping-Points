@@ -1,104 +1,105 @@
 # Ping Points
 
-![](https://i.pinimg.com/originals/6b/46/aa/6b46aa7daa77fa0801c8e71d434f6224.png)
+![https://i.pinimg.com/originals/6b/46/aa/6b46aa7daa77fa0801c8e71d434f6224.png](https://i.pinimg.com/originals/6b/46/aa/6b46aa7daa77fa0801c8e71d434f6224.png)
 
-## Descrição do Aplicativo
+## App Description
 
-**Ping Points** é um aplicativo móvel intuitivo e elegante, desenvolvido para entusiastas de tênis de mesa (ping pong) que desejam acompanhar suas partidas de forma eficiente. Chega de discussões sobre a pontuação ou de tentar lembrar quem venceu a última partida! Com o Ping Points, você pode registrar jogadores, gerenciar placares em tempo real e manter um histórico detalhado de todas as suas vitórias e derrotas.
+**Ping Points** is an intuitive and elegant mobile application designed for table tennis (ping pong) enthusiasts who want to track their matches efficiently. No more arguments over the score or trying to remember who won the last game! With Ping Points, you can register players, manage scores in real-time, and maintain a detailed history of all your wins and losses.
 
-Projetado com uma interface de usuário limpa e responsiva, o Ping Points oferece uma experiência sem atritos, permitindo que você se concentre no jogo. Seja para uma partida casual entre amigos ou um torneio amigável, este aplicativo é a ferramenta perfeita para manter tudo organizado.
+Designed with a clean and responsive user interface, Ping Points offers a frictionless experience, allowing you to focus on the game. Whether for a casual match between friends or a friendly tournament, this app is the perfect tool to keep everything organized.
 
-## Funcionalidades
+## Features
 
-- **Gestão de Jogadores**: Crie e gerencie perfis de jogadores com nomes e avatares personalizáveis.
-- **Controle de Placar em Tempo Real**: Interface fácil de usar para adicionar e subtrair pontos durante a partida.
-- **Configuração de Partidas**: Defina o número de pontos necessários para vencer um set e o número de sets para vencer a partida.
-- **Histórico de Partidas**: Todas as partidas finalizadas são salvas, permitindo que você revise vencedores, pontuações dos sets e datas.
-- **Modo Escuro/Claro**: Alterne entre temas claro e escuro para uma experiência visual confortável em qualquer ambiente.
-- **Feedback Tátil**: Vibrações sutis para confirmação de ações, como adicionar pontos ou selecionar jogadores.
-- **Persistência de Dados**: Todos os dados de jogadores e histórico são salvos localmente no seu dispositivo.
-- **Alertas Customizados**: Modais de alerta personalizados para confirmações importantes, como exclusão de dados.
+- **Player Management**: Create and manage player profiles with customizable names and avatars.
+- **Real-Time Score Control**: Easy-to-use interface to add and subtract points during the match.
+- **Match Configuration**: Set the number of points required to win a set and the number of sets to win the match.
+- **Match History**: All completed matches are saved, allowing you to review winners, set scores, and dates.
+- **Dark/Light Mode**: Switch between light and dark themes for a comfortable visual experience in any environment.
+- **Haptic Feedback**: Subtle vibrations to confirm actions, such as adding points or selecting players.
+- **Data Persistence**: All player data and history are saved locally on your device.
+- **Custom Alerts**: Custom alert modals for important confirmations, such as deleting data.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-O Ping Points é construído com tecnologias modernas para garantir desempenho e uma ótima experiência de desenvolvimento:
+Ping Points is built with modern technologies to ensure performance and a great development experience:
 
-- **React Native**: Framework para construção de aplicativos móveis nativos usando React.
-- **Expo**: Conjunto de ferramentas e serviços para desenvolver, construir e implantar aplicativos React Native.
-- **`@react-native-async-storage/async-storage`**: Armazenamento persistente de dados chave-valor para o aplicativo.
-- **`@expo/vector-icons`**: Biblioteca de ícones vetoriais para uma interface rica e consistente.
-- **`react-navigation/native`**: Solução de navegação para aplicativos React Native.
-- **`react`**: Biblioteca JavaScript para construir interfaces de usuário.
-- **`react-native`**: Componentes nativos para React Native.
-- **`react-native-paper`**: Biblioteca de componentes UI personalizáveis e de alta qualidade, seguindo as diretrizes do Material Design.
-- **`react-native-safe-area-context`**: Lida com áreas seguras em dispositivos com entalhes ou barras de status.
-- **`react-native-svg`**: Permite o uso de gráficos SVG em aplicativos React Native.
+- **React Native**: Framework for building native mobile apps using React.
+- **Expo**: Set of tools and services for developing, building, and deploying React Native apps.
+- **`@react-native-async-storage/async-storage`**: Persistent key-value data storage for the app.
+- **`@expo/vector-icons`**: Vector icon library for a rich and consistent interface.
+- **`react-navigation/native`**: Navigation solution for React Native apps.
+- **`react`**: JavaScript library for building user interfaces.
+- **`react-native`**: Native components for React Native.
+- **`react-native-paper`**: Library of customizable, high-quality UI components following Material Design guidelines.
+- **`react-native-safe-area-context`**: Handles safe areas on devices with notches or status bars.
+- **`react-native-svg`**: Allows the use of SVG graphics in React Native apps.
 
-## Instalação
+## Installation
 
-Para configurar e executar o projeto localmente, siga estas etapas:
+To set up and run the project locally, follow these steps:
 
-1.  **Pré-requisitos**:
-    *   Node.js (versão 18 ou superior recomendada)
-    *   npm ou Yarn
-    *   Expo CLI (`npm install -g expo-cli`)
+1.  **Prerequisites**:
+    * Node.js (version 18 or higher recommended)
+    * npm or Yarn
+    * Expo CLI (`npm install -g expo-cli`)
 
-2.  **Clone o repositório**:
-    ```bash
-    git clone https://github.com/guilherme23x/Ping-Points.git
+2.  **Clone the repository**:
+```bash
+    git clone [https://github.com/guilherme23x/Ping-Points.git](https://github.com/guilherme23x/Ping-Points.git)
 
     cd PingPoints
-    ```
+```
 
-3.  **Instale as dependências**:
-    ```bash
+3.  **Install dependencies**:
+
+```bash
     npm install
-    # ou
+    # or
     yarn install
-    ```
 
-4.  **Inicie o aplicativo**:
-    ```bash
+```
+
+4.  **Start the app**:
+```bash
     expo start
     ```
-    Isso abrirá uma nova aba no seu navegador com o Expo Dev Tools. Você pode então:
-    *   Usar um emulador Android/iOS.
-    *   Escanear o código QR com o aplicativo Expo Go no seu dispositivo móvel.
+    This will open a new tab in your browser with the Expo Dev Tools. You can then:
+    * Use an Android/iOS emulator.
+    * Scan the QR code with the Expo Go app on your mobile device.
+```
+## Usage
 
-## Uso
+1.  **Manage Players**: In the "Athletes" tab, add new players with names and avatars.
+2.  **Start a Match**: In the "Arena" tab, select two players, set the target points and sets, and click "Start >".
+3.  **Record Points**: Tap the player area to add points. Long press to subtract points.
+4.  **View History**: Track all your previous matches in the "History" tab.
+5.  **Settings**: Toggle the theme (light/dark) and manage app data in the "Systems" tab.
 
-1.  **Gerenciar Jogadores**: Na aba "Atletas", adicione novos jogadores com nomes e avatares.
-2.  **Iniciar uma Partida**: Na aba "Arena", selecione dois jogadores, defina os pontos e sets alvo, e clique em "Começar >".
-3.  **Registrar Pontos**: Toque na área do jogador para adicionar pontos. Mantenha pressionado para subtrair pontos.
-4.  **Visualizar Histórico**: Acompanhe todas as suas partidas anteriores na aba "Histórico".
-5.  **Configurações**: Alterne o tema (claro/escuro) e gerencie os dados do aplicativo na aba "Sistemas".
+## Mockups and Screenshots
 
-## Mockups e Screenshots
-
-Aqui você pode adicionar imagens do seu aplicativo em ação.
+Here you can add images of your app in action.
 
 <!--
-Adicione suas imagens de mockup aqui.
+Add your mockup images here.
 
-Exemplo:
+Example:
 
-### Tela Principal (Arena)
-!Screenshot da Tela Principal
+### Main Screen (Arena)
+!Screenshot of Main Screen
 
-### Tela de Jogadores
-!Screenshot da Tela de Jogadores
+### Player Screen
+!Screenshot of Player Screen
 
-### Tela de Partida
-!Screenshot da Tela de Partida
+### Match Screen
+!Screenshot of Match Screen
 
-### Tela de Histórico
-!Screenshot da Tela de Histórico
+### History Screen
+!Screenshot of History Screen
 
-### Modo Escuro
-!Screenshot do Modo Escuro
+### Dark Mode
+!Screenshot of Dark Mode
 -->
 
-## Licença
+## License
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
+This project is licensed under the MIT License. See the LICENSE file for more details.
